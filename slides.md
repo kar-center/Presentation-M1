@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: TODO
 class: text-center
 highlighter: shikiji
 lineNumbers: false
