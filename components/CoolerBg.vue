@@ -6,7 +6,7 @@
               left: `${l.left}%`,
               top: `${l.top}%`,
               '--size': `${l.size}px`,
-              opacity: Math.random() + 0.4
+              opacity: Math.random()*0.8
            }"
       >
 
