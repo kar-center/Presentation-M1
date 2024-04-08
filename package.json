@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
-    "dev": "slidev --open",
+    "dev": "slidev",
     "export": "slidev export"
   },
-  "dependencies": {
+  "devDependencies": {
     "@slidev/cli": "^0.46.1",
+    "vue": "^3.3.8",
     "@slidev/theme-default": "0.21.2",
     "@slidev/theme-seriph": "0.21.3"
   }

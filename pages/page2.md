@@ -5,17 +5,17 @@ transition: slide-left
 title: E-Learn Module
 mdc: true
 ---
-<Titler title="جدول محتوا" :page-number="0" class="mb-8"/>
+<Titler title="بررسی کنیم!" :page-number="0" class="mb-8"/>
+<CoolerBg/>
 
-
-<div class="grid grid-cols-12">
-<ul class="col-span-6">
+<div class="grid grid-cols-12 p-6 pb-15 pr-8 bg-white/[0.1] rounded-[20px]" style="backdrop-filter: blur(20px)">
+<ul class="col-span-6 h-full">
 <li v-click>
 
-<p>چرا؟</p>
+<p>چرا یک ماژول آموزشی جدید؟</p>
 
 <ul class="mr-6">
-<li>مدرن و کارآمد</li>
+<li>وضعیت حال حاضر ماژول های آموزشی</li>
 <li>همیار آموزش</li>
 <li>یکپارچگی</li>
 </ul>
@@ -26,11 +26,15 @@ mdc: true
 
 <ul class="mr-6">
 <li>مطالعه راه حل های موجود</li>
-<li>همه پرسی ها</li>
-<li>زیرساخت مطمئن</li>
+<li>نظرخواهی</li>
+<li>برنامه ما</li>
+<li>پیاده سازی</li>
 
 </ul>
 </li>
 </ul>
-<img src="/resources/school.jpg" class="col-span-6 w-full h-full rounded-[12px]" v-click/>
+<div class="w-full col-span-6" v-click>
+<img src="/resources/school.jpg" class="w-full h-full rounded-[12px]"/>
+<p class="w-full text-center">دبیرستان مفید - قیطریه</p>
+</div>
 </div>
